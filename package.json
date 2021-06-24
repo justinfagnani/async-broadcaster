@@ -1,6 +1,6 @@
 {
   "name": "async-broadcaster",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Observable alternative using async iterators",
   "type": "module",
   "main": "index.js",

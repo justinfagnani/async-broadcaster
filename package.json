@@ -1,0 +1,33 @@
+{
+  "name": "async-broadcaster",
+  "version": "0.1.0",
+  "description": "Observable alternative using async iterators",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier \"**/*.ts\" --write --ignore-path .gitignore",
+    "test": "uvu test '\\_test\\.js$'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinfagnani/async-broadcaster.git"
+  },
+  "keywords": [
+    "observable",
+    "async",
+    "iterator",
+    "iterable"
+  ],
+  "author": "Justin Fagnani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justinfagnani/async-broadcaster/issues"
+  },
+  "homepage": "https://github.com/justinfagnani/async-broadcaster#readme",
+  "devDependencies": {
+    "prettier": "^2.3.1",
+    "typescript": "^4.3.4",
+    "uvu": "^0.5.1"
+  }
+}

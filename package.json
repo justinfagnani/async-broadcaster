@@ -7,6 +7,7 @@
   "scripts": {
     "build": "tsc",
     "format": "prettier \"**/*.ts\" --write --ignore-path .gitignore",
+    "checksize": "rollup -c ; rm bundled.js",
     "test": "uvu test '\\_test\\.js$'"
   },
   "repository": {
@@ -27,6 +28,9 @@
   "homepage": "https://github.com/justinfagnani/async-broadcaster#readme",
   "devDependencies": {
     "prettier": "^2.3.1",
+    "rollup": "^2.52.2",
+    "rollup-plugin-filesize": "^9.1.1",
+    "rollup-plugin-terser": "^7.0.2",
     "typescript": "^4.3.4",
     "uvu": "^0.5.1"
   }

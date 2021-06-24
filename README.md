@@ -14,7 +14,7 @@ It's a common requirement to let users subscribe to new values that are produced
 
 What's needed to enable consumers to use async iterables is a way for producers to make async iterables that can be listened to by multiple listeners and correctly handle buffering, unsubscription, etc.
 
-This is any AsyncBroadcaster does.
+This is what AsyncBroadcaster does.
 
 AsyncBroadcaster takes a single async iterable and adapts it to allow multiple listeners.
 
